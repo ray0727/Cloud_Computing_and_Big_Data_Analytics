@@ -15,8 +15,10 @@ code for HW1 `Music Memorability Prediction`
 ```
 $ python3 train.py
 ```
-
+## Pretrained Model
+`audio.pth`
 ## evaluation
+* load audio.pth
 ```
 $ python3 test.py --filename [audio file path]
 ```
