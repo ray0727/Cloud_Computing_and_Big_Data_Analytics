@@ -55,6 +55,6 @@ if __name__=="__main__":
     public_label = public_label.to_numpy()
     train_dataset, seq_len, n_features = create_dataset(training_value)
     val_dataset, _, _ = create_dataset(public_value)
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model = model.to(device)
     train(model, train_dataset, val_dataset, public_label, 75)

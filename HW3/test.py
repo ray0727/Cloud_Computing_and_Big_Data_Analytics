@@ -50,7 +50,7 @@ if __name__== "__main__":
     public_label = public_label.to_numpy()
     public_dataset, seq_len, n_features = create_dataset(public_value)
 
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model.load_state_dict(torch.load("./sensor_A.pth"))
     model=model.to(device)
     model = model.eval()
@@ -64,7 +64,7 @@ if __name__== "__main__":
     public_label = public_label.to_numpy()
     public_dataset, seq_len, n_features = create_dataset(public_value)
 
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model.load_state_dict(torch.load("./sensor_B.pth"))
     model=model.to(device)
     model = model.eval()
@@ -78,7 +78,7 @@ if __name__== "__main__":
     public_label = public_label.to_numpy()
     public_dataset, seq_len, n_features = create_dataset(public_value)
 
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model.load_state_dict(torch.load("./sensor_C.pth"))
     model=model.to(device)
     model = model.eval()
@@ -92,7 +92,7 @@ if __name__== "__main__":
     public_label = public_label.to_numpy()
     public_dataset, seq_len, n_features = create_dataset(public_value)
 
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model.load_state_dict(torch.load("./sensor_D.pth"))
     model=model.to(device)
     model = model.eval()
@@ -106,7 +106,7 @@ if __name__== "__main__":
     public_label = public_label.to_numpy()
     public_dataset, seq_len, n_features = create_dataset(public_value)
 
-    model = RecurrentAutoencoder(seq_len, n_features, 32)
+    model = RecurrentAutoencoder(seq_len, n_features, 128)
     model.load_state_dict(torch.load("./sensor_E.pth"))
     model=model.to(device)
     model = model.eval()
