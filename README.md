@@ -4,3 +4,5 @@
 * For more information, please see folder HW1
 ## HW2 Self Supervised Learning
 * For more information, please see folder HW2
+## HW3 Anomaly Detection
+* For more information, please see folder HW3
