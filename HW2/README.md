@@ -18,7 +18,7 @@ Method: SimCLR
 ## Training Model
 Show the training loss, and the KNN accuracy of the testing dataset
 ```
-$ python3 train.py
+python3 train.py
 ```
 ## Pretrained Model
 `model.pth`
@@ -28,5 +28,5 @@ $ python3 train.py
 * load model.pth and 
 save embeddings to 309512074.npy
 ```
-$ python3 test.py 
+python3 test.py 
 ```
